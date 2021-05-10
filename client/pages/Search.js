@@ -7,11 +7,9 @@ export function Search() {
     const [results, setResults] = useState([]); 
 
     async function handleSubmit(e) {
-        console.log(process.env);
         e.preventDefault();
         const {data} = await axios.get(`http://www.omdbapi.com/?s=${term}&apikey=${process.env.OMDB_TOKEN}`);
         setResults(data.Search);
-        console.log(results);
         e.target[0].value = '';
     }
 
