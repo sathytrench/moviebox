@@ -1,5 +1,5 @@
 {
-  "name": "shoppies",
+  "name": "moviebox",
   "version": "1.0.0",
   "description": "movie api challenge",
   "main": "index.js",
@@ -20,7 +20,6 @@
     "deploy": "script/deploy",
     "lint-fix": "npm run lint -- --fix",
     "prettify": "prettier --write \"**/*.{js,jsx,json,css,scss,md}\"",
-    "postinstall": "touch secrets.js",
     "start": "node server",
     "start-dev": "NODE_ENV='development' npm run build-client-watch & NODE_ENV='development' npm run start-server",
     "start-server": "nodemon server -e html,js,scss --ignore public --ignore client"

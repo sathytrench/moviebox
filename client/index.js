@@ -1,9 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import {Router} from 'react-router-dom'
-import App from './App'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './pages/App';
 
 ReactDOM.render(
-    <div>hi!</div>,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById('root')
-)
+);
