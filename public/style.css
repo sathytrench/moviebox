@@ -1,0 +1,19 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search-container, #nominations-container {
+    border: red dotted;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+}
+
+form {
+    border: pink dotted;
+    display: flex;
+    flex-direction: column;
+}
