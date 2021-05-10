@@ -6,6 +6,8 @@ const PORT = process.env.PORT || 3000
 const app = express()
 module.exports = app
 
+if (process.env.NODE_ENV !== 'production') require('../secrets')
+
 const createApp = () => {
   // logging middleware
   app.use(morgan('dev'))
