@@ -1,0 +1,8 @@
+# dependencies
+node_modules/
+
+# misc
+.DS_Store
+public/bundle.js
+public/bundle.js.map
+secrets.js
