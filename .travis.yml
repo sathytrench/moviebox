@@ -24,5 +24,6 @@ deploy:
   skip_cleanup: true # prevents travis from deleting the build
   provider: heroku
   app: m0vieb0x
-  api_key:
+  api_key: 
+    secure: 52ea5589-6e0d-47b1-97ad-84487691b7be
 
