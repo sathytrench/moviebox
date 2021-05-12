@@ -1,18 +1,18 @@
 import React from 'react';
 import {Search} from './Search';
-import {Nominations} from './Nominations.js'
+import {Votes} from './Votes.js'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          welcome to moviebox!
+          welcome to moviebox! 
         </p>
       </header>
       <div className = "content">
         <Search />
-        <Nominations />
+        <Votes />
       </div>
     </div>
   );

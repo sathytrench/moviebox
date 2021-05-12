@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-#search-container, #nominations-container {
+#search-container, #votes-container {
     border: red dotted;
     display: flex;
     flex-direction: column;
