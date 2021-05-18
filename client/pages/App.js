@@ -1,6 +1,6 @@
 import React from 'react';
-import {Search} from './Search';
-import {Votes} from './Votes.js'
+import { Search } from './Search';
+import { Votes } from './Votes.js'
 
 function App() {
   return (
