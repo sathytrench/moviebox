@@ -8,7 +8,7 @@ export function Search() {
 
     async function handleSubmit(e) {
         e.preventDefault();
-        const {data} = await axios.get(`http://www.omdbapi.com/?s=${term}&apikey=${process.env.OMDB_TOKEN}`);
+        const {data} = await axios.get(`https://www.omdbapi.com/?s=${term}&apikey=${process.env.OMDB_TOKEN}`);
         setResults(data.Search);
         e.target[0].value = '';
     }
